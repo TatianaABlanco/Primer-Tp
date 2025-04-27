@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style4.css">
+    <script src="https://kit.fontawesome.com/ce1bce5983.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <dir class="fondo">
+            <img src="img//ags_head24.png" alt="">
+        </dir>
+     <ul class="navbar-nav">
+         <li><a href="index.html">Inicio</a></li>
+         <li><a href="Cards.html">Eventos</a></li>
+         <li><a href="Galeria.html">Galeria 2024</a></li>
+         <li><a href="#">Contacto</a></li>
+     </ul>
+ </div>
+
+ <main>
+  <form>
+    <h2>Contacto</h2>
+    <div class="input-group">
+
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="name" placeholder="Nombre">
+
+        <label for="email">E-Mail</label>
+        <input type="text" name="email" id="name" placeholder="E-Mail">
+
+        <label for="tel">Telefono</label>
+        <input type="text" name="tel" id="tel" placeholder="Telefono">
+
+        <label for="duda">Cual es tu duda?</label>
+        <select name="duda" data-depend="40" id="duda" data-type="list" data-verify="0" data-nodup="0" data-id="40" 
+        class="Form-control">
+        <option value> Seleccione</option>
+        <option value="1">Expositor</option>
+        <option value="2">Prensa</option>
+        <option value="3">Informacion General</option>
+        </select>
+        <label for="mansaje">Mensaje</label>
+        <textarea name="mensaje" id="mensaje" cols="50" rows="5" placeholder="Mensaje"></textarea>
+        <label >
+         <input type="checkbox" name="enviarmail" value="si">
+         Quiere recibir noticias sobre AGS via Mail
+       </label>
+        <input class="btn" type="submit" value="Enviar">
+        <input class="btn2" type="submit" value="Reset">
+    </div>
+  </form>    
+ </main>
+
+</body>
+</html>

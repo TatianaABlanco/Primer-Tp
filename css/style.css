@@ -1,0 +1,182 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:"Tomorrow", sans-serif;
+}
+   
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5)),url("../img/PORTADA.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+   
+.navbar-nav{
+    float: right;
+    list-style-type: none;
+    margin-top: 60px;
+    min-height: 400px;
+    margin-right: 20px;
+    font-size: 19px;
+}
+
+.navbar-nav li{
+    display: inline-block;
+}
+
+.navbar-nav li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+.navbar-nav li a:hover{
+    background-color: blueviolet;
+    color:#fff;
+}
+
+.logo img{
+    float: left;
+    width: 180px;
+    height: auto;
+    margin-top: 2%;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.titulo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+ 
+.titulo h1{
+    color: #fff;
+    font-size: 55px;
+}
+.titulo p{
+    color: #fff;
+   position: absolute;
+   font-size: 19px;
+   text-align: center;
+}
+
+.button{
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color: #fff;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+.btn:hover{
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.ags-context{
+    text-align: center;
+    display: block;
+    flex-direction: column;
+    background-color: rgb(107, 0, 139);
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(-45deg, #4158D0, #e560dc,#ae00c5,#ffd664,#d840d6);
+    background-size: 400% 400%;
+    animation: bg 10s ease infinite;
+}
+
+@keyframes bg{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.ags-context h2{
+    padding-top: 60px;
+    color: white;
+}
+
+.ags-context p{
+  text-align: center;
+  margin-top: 15px;
+  color: #fff;
+}
+.ags-context .destacable-group{
+    display: inline-flex;
+    justify-content: space-around;
+    margin: 60px;
+}
+.destacable-group img{
+    width: 250px;
+    height: 60%;
+}
+.destacable-group h3{
+    color: aliceblue;
+}
+.destacable-group p{
+    margin: 20px;
+    font-family: "Tomorrow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+footer{
+    background-color: black;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer p{
+    color: #fff;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 10px;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.icon{
+    color: #fff;
+    font-size: 19px;
+    display: inline-block;
+    margin:0 10px;
+    transition: 0.5 ease;
+    list-style: none;
+    text-decoration: none;
+}
+.icon:hover { 
+ transform: translateY(-2px);
+}
