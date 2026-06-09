@@ -39,6 +39,41 @@ header{
     background-color: blueviolet;
     color:#fff;
 }
+.sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;
+}
+.sub-menu ul{
+    position:absolute;
+}
+
+.nav ul li:hover .sub-menu{
+    display: flex;
+    position: absolute;
+    background-color: blueviolet;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+.nav ul li:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
+}
+.nav ul li:hover .sub-menu ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: center;
+}
+.fondo img{
+    float: left;
+    width: 180px;
+    height: auto;
+    margin-top: 2%;
+    margin-left: 100px;
+}
 
 .logo img{
     float: left;
